@@ -1,0 +1,15 @@
+ 1394  git init
+ 1395  touch readme.md index.html style.css
+ 1396  git remote add origin https://github.com/WCNewell/git-drill-1e.git
+ 1397  git add index.html
+ 1398  git status
+ 1399  git commit -m "initial commit"
+ 1400  open readme.md
+ 1401  git add -A
+ 1402  git reset
+ 1403  touch app.js
+ 1404  curl -o lickycat.gif https://media.giphy.com/media/xTiTnGmnf7CxpduWxq/giphy-downsized.gif
+ 1405  git add .
+ 1406  git commit -m "added gif"
+ 1407  git log
+ 1408  git push -u origin master
